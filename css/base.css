@@ -1,0 +1,163 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+* {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    margin: 0;
+    padding: 0;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  input,
+  textarea,
+  select,
+  button {
+    outline: none;
+  }
+input::placeholder
+, textarea::placeholder {
+  color: rgb(170, 167, 167);
+}
+  input {
+    line-height: normal;
+  }
+  ul {
+      list-style: none;
+  }
+  label,
+  button {
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+  }
+/*   
+  body {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #121620;
+    min-height: 100vh;
+    position: relative;
+  } */
+  /* body:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 1080px;
+    background-image: linear-gradient(to bottom, #00000c, transparent);
+    pointer-events: none;
+    z-index: -1;
+  } */
+
+  .container {
+    width: 100%;
+    max-width: 1320px;
+    padding: 0 12px;
+    margin: 0 auto;
+  }
+.flex1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.d-block {
+    display: block;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.col {
+    padding: 0 8px;
+  }
+.col-6{
+    width: 50%;
+}
+.col-12{
+    width: 100%;
+}
+.col-4{
+    width: 33.333333%;
+}
+.col-8 {
+  width: 66.66667%;
+}
+.col-3{
+    width: 25%;
+}
+.img-full{
+    width: 100%;
+}
+.f-600 {
+  font-weight: 600px;
+}
+.font-noto {
+  font-family: 'Noto Sans Display', sans-serif;
+}
+.color-pri {
+  color: #fbaf32;
+}
+.br-8 {
+  border-radius: 8px !important;
+}
+.btn-primary {
+    font-weight: 600; 
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff; 
+    padding: 11px 24px;
+    border-radius: 3px;
+    min-width: 130px;
+    transition: all 0.2s ease-in;
+}
+.btn-primary:hover {
+   background-color: white;
+   color: black;
+}
+.btn-tran {
+  transition: all 0.2s ease-in;
+  font-weight: 600;
+  color: white;
+  padding: 11px 24px;
+  border-radius: 3px;
+  min-width: 170px;
+  border: 1px solid transparent; 
+  outline: none;
+  background-color: #fbaf32;
+}
+.btn-tran-sm {
+  margin-top: 10px;
+  color: black;
+  font-size: 14px;
+  min-width: auto !important;
+  padding: 8px 13px !important;
+}
+.btn-tran:hover {
+  border: 1px solid #fbaf32; 
+  color: #fbaf32;
+  background-color: transparent;
+}

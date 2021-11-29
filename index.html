@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./Images/logoweb.png"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/reponsive.css">
+    <title>Burgerr</title>
+</head>
+<body>
+    <header id="header">
+        <nav  id="header-add" class="header-nav">
+           <div class="container">
+            <div class="flex1">
+                <div class="nav-logo flex1">
+                    <img src="./Images/logo-dark.png" alt="" class="img-full">
+                </div>
+                <a href="#" class="nav-logo2 flex1">
+                    <img src="./Images/logo-sticky.png" alt="" class="img-full">
+                </a>
+                <nav class="nav-item-right ">
+                    <ul class="right-menu-list flex1">
+                        <li class="right-menu-item ">
+                            <a href="#" class="add-color menu-item-link color-nav-active ">Home</a>
+                        </li>
+                        <li class="right-menu-item">
+                            <a href="#story" class="add-color menu-item-link">Story</a>
+                        </li>
+                        <li class="right-menu-item">
+                            <a href="#menu" class="add-color menu-item-link">Menu</a>
+                        </li>
+                        <li class="right-menu-item">
+                            <a href="#contact" class="add-color menu-item-link">Contact</a>
+                        </li>
+                        <li class="right-menu-item flex1">
+                            <a href="tel:+932.376.202" class="menu-item-link">+932.376.202</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-misc">
+                    <span>
+                        <i class="fas fa-ellipsis-v color-nav-active"></i>
+                    </span>
+                </div>
+                <div class="btn-open-mobile">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="btn-close-mobile">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+           </div>
+        </nav>
+    </header>
+    <ul class="menu-head-mobile">
+        <li class="right-menu-item">
+            <a href="#" class="close-Menu menu-item-link color-nav-active ">Home</a>
+        </li>
+        <li class="right-menu-item">
+            <a href="#story" class="close-Menu menu-item-link">Story</a>
+        </li>
+        <li class="right-menu-item">
+            <a href="#menu" class="close-Menu menu-item-link">Menu</a>
+        </li>
+        <li class="right-menu-item">
+            <a href="#contact" class="close-Menu menu-item-link">Contact</a>
+        </li>
+    </ul>
+    <div class="navbar-show navbar-show-style">
+       <div class="download-app">
+          <h3>DOWNLOAD APP</h3>
+          <p>Download app "Burger" on: </p>
+          <a href="https://www.apple.com/app-store/"><img src="./Images/appstore.png" alt="" class="img-full"></a>
+          <a href="https://play.google.com/store"><img src="./Images/googleplay.png" alt="" class="img-full"></a>
+       </div>
+       <div class="contact-quick">
+           <input type="text" placeholder="Full name">
+           <input type="text" placeholder="Email address">
+           <textarea placeholder="Message" id="" cols="30" rows="10"></textarea>
+           <div class="flex1">
+               <button class="btn-tran btn-tran-sm">SEND EMAIL</button>
+               <button class="btn-tran btn-tran-sm close-btn">CLOSE</button>
+           </div>
+       </div>
+    </div>
+    <div id="overlay-nav-right" title="Close">
+    </div>
+    <div  class=" slider-head  slide-head-height">
+         <div class="wrap-head-content">
+             <div class="container">
+                 <div class="row">
+                     <div class="content-head col-6 col-md-12 col-sm-12">
+                         <div class="style-title color-pri">Delight Your Best</div>
+                         <h1 class="title-head">Burgerrrr</h1>
+                         <p class="title-des">Competently revolutionize real-time deliverables via quality vortals. Compellingly create worldwide functionalities without robust interfaces.</p>
+                         <div class="wrap-btn flex2">
+                             <a href="#"><button class="btn-primary">SEE MENU</button></a>
+                             <a href="#"><button class="btn-tran">BOOK A TABLE</button></a>
+                         </div>
+                     </div>
+                     <div class="col-6"></div>
+                 </div>
+             </div>
+         </div>
+    </div>
+    <div class="brush-img"></div>
+    <!-- Story -->
+    <div id="overlay">
+        <div id="video-modal">
+            <div class="header-modal">
+                 <span id="close-video"><i class="fas fa-times"></i></span>
+            </div>
+            <iframe id="ifr" src="https://www.youtube.com/embed/BeC7MiWAiEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="story" class="section">
+        <div class="wrap-story">
+            <div class="container">
+                <div class="content-str">
+                    <div class="title-story f-600 color-pri">Our Story</div>
+                    <h1 class="text-str-style">Burgers! You won't Find Anywhere Else</h1>
+                    <p class="str-des">Holisticly initiate distinctive growth strategies without efficient scenarios. Enthusiastically restore effective infomediaries through one-to-one applications. Assertively build cross-platform core competencies through resource-leveling process improvements. Objectively actualize intermandated strategic theme areas and real-time e-services.</p>
+                    <a class="color-pri str-link" href="https://www.freepik.com/">Design by freepik</a>
+
+                    <div class="wrap-story-video br-8">
+                        <img src="./Images/str-man.jpg" alt="" class="bg-video img-full br-8">
+                        <div class="str-video-btn flex1">
+                            <span id="open-video">
+                                <i class="fas fa-play-circle"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="snack">
+                        <img src="./Images/items1.svg" alt="" class="img-full">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay-story"></div>
+    </div>
+    <div style="background-color: black;">
+        <div style="overflow: hidden;" >
+            <div class="row">
+                <div class=" col-4 col-sm-12 menu-type-item" style="background-color: #0a0a0a;">
+                    <div class="img-type" >
+                        <img src="./Images/ham2.png" alt="">
+                    </div>
+                    <div class="content-type">
+                        <h1>SNACKS</h1>
+                        <p>Credibly exploit one-to-one markets before enabled innovation. Synergistically incubate integrated communities whereas highly efficient alignments.</p>
+                        <button class="btn-primary">View all</button>
+                    </div>
+                </div>
+                <div class="col col-4 col-sm-12 menu-type-item" style="background-color: #1b1b1b;">
+                    <div class="img-type" >
+                        <img src="./Images/ham1.png" alt="">
+                    </div>
+                    <div class="content-type">
+                        <h1>BURGERS</h1>
+                        <p>Authoritatively envisioneer 24/365 benefits via bricks-and-clicks outsourcing. Phosfluorescently redefine real-time relationships with interoperable sources. Efficiently.</p>
+                        <button class="btn-primary">View all</button>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-12 menu-type-item" style="background-color: #262626;">
+                    <div class="img-type">
+                        <img src="./Images/tea.png" alt="">
+                    </div>
+                    <div class="content-type">
+                        <h1>BEVERAGES</h1>
+                        <p class="p-mb-mobile">Dramatically promote collaborative networks via client-based quality vectors. Appropriately transform seamless applications after leading-edge models.</p>
+                        <button class="btn-primary">View all</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img src="./Images/section-man1.jpg" alt="">
+    </div>
+    <!-- Quality -->
+   <div style="background-color:#101010; padding: 1px 0;">
+    <div class="container" >
+        <div class="wrap-title-quality">
+            <div class="title-nav color-pri">Best Quality</div>
+            <h1 class="title-nav2">Ingredients</h1>
+        </div>
+        <div class="row">
+            <div class="col col-4 col-sm-12 col-md-6">
+                <div class="quality-item-content">
+                    <span>
+                        <i class="fas fa-check-circle"></i>
+                        BURGER BUNS
+                    </span>
+                    <p>Stretch your Website to the Full Width or make it boxed to surprise your visitors.</p>
+                </div>
+                <div class="quality-item-content" style="margin-left: 45px;">
+                    <span>
+                        <i class="fas fa-check-circle"></i>
+                        FRESH VEGETABLES
+                    </span>
+                    <p>Stretch your Website to the Full Width or make it boxed to surprise your visitors.</p>
+                </div>
+                <div class="quality-item-content">
+                    <span>
+                        <i class="fas fa-check-circle"></i>
+                        GROUND BEEF
+                    </span>
+                    <p>Display your Content attractively using Parallax Sections with HTML5 Videos.</p>
+                </div>
+            </div>
+            <div class="col col-4 col-sm-12 mb-none">
+                <img src="./Images/section-man2.jpg" alt="" class="img-full">
+            </div>
+            <div class="col col-4 col-sm-12 col-md-6">
+                <div class="quality-item-content" style="margin-left: 45px;">
+                    <span>
+                        <i class="fas fa-check-circle"></i>
+                        FRESH MEAT
+                    </span>
+                    <p>Canvas provides support for Native HTML5 Videos that can be added to a Background.</p>
+                </div>
+                <div class="quality-item-content">
+                    <span>
+                        <i class="fas fa-check-circle"></i>
+                        GLUTEN-FREE BUNS
+                    </span>
+                    <p>Complete control on each & every element that provides endless customization.</p>
+                </div>
+                <div class="quality-item-content" style="margin-left: 45px;">
+                    <span>
+                        <i class="fas fa-check-circle"></i>
+                        LOW FAT
+                    </span>
+                    <p>Change your Website's Primary Scheme instantly by simply adding the dark class.</p>
+                </div>
+            </div>
+        </div>
+     </div>
+   </div>
+   <!-- burgers -->
+   <div id="menu" class="menu-content">
+      <div class="container">
+        <div class="row">
+            <div class="col-6 col-sm-12 wrap-content-menu">
+               <span class="title-nav color-pri">Our menu</span>
+               <div class="flex2 wrap-title-menu">
+                   <img src="./Images/burger-dash.svg" alt="" class="img-full">
+                   <h1 class="title-nav2">Burgers</h1>
+               </div>
+               <div class="food-item">
+                 <div class="flex1 product-price">
+                      <div class="price-head color-pri font-noto">Mini Burger</div>
+                      <div class="price-space"></div>
+                      <div class="price-main font-noto">$9.00</div>
+                 </div>
+                 <div class="product-des">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+                 </div>
+               </div>
+               <div class="food-item">
+                <div class="flex1 product-price">
+                     <div class="price-head color-pri font-noto">Double Size Burger</div>
+                     <div class="price-space"></div>
+                     <div class="price-main font-noto">$13.00</div>
+                </div>
+                <div class="product-des">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+                </div>
+              </div>
+              <div class="food-item">
+                <div class="flex1 product-price">
+                     <div class="price-head color-pri font-noto">Turkish Burger</div>
+                     <div class="price-space"></div>
+                     <div class="price-main font-noto">$15.00</div>
+                </div>
+                <div class="product-des">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+                </div>
+              </div>
+              <div class="food-item">
+                <div class="flex1 product-price">
+                     <div class="price-head color-pri font-noto">Garden Veg Burger</div>
+                     <div class="price-space"></div>
+                     <div class="price-main font-noto">$11.00</div>
+                </div>
+                <div class="product-des">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-12 wrap-img-menu">
+                <img src="./Images/burgerknine.png" alt="" class="img-menu-lg">
+            </div>
+        </div>
+      </div>
+   </div>
+  <!-- snack -->
+   <div class="menu-snack">
+       <div class="container">
+           <div class="row">
+            <div class="col-6 col-sm-12 wrap-img-menu">
+                <img src="./Images/snacks.png" alt="" class="img-menu-lg">
+            </div>
+            <div class="col-6  col-sm-12 wrap-content-snack">
+                <span class="title-nav color-pri">Our menu</span>
+                <div class="flex2 wrap-title-menu">
+                    <img src="./Images/snacks-dash.svg" alt="" class="img-full img-logo-cus">
+                    <h1 class="title-nav2">Snacks</h1>
+                </div>
+                <div class="food-item">
+                  <div class="flex1 product-price">
+                       <div class="price-head color-pri font-noto">Hot Dog</div>
+                       <div class="price-space"></div>
+                       <div class="price-main font-noto">$9.00</div>
+                  </div>
+                  <div class="product-des">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+                  </div>
+                </div>
+                <div class="food-item">
+                 <div class="flex1 product-price">
+                      <div class="price-head color-pri font-noto">Chicken Wrap</div>
+                      <div class="price-space"></div>
+                      <div class="price-main font-noto">$13.00</div>
+                 </div>
+                 <div class="product-des">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+                 </div>
+               </div>
+               <div class="food-item">
+                 <div class="flex1 product-price">
+                      <div class="price-head color-pri font-noto">Rice Bowl</div>
+                      <div class="price-space"></div>
+                      <div class="price-main font-noto">$15.00</div>
+                 </div>
+                 <div class="product-des">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+                 </div>
+               </div>
+               <div class="food-item">
+                 <div class="flex1 product-price">
+                      <div class="price-head color-pri font-noto">House Salad</div>
+                      <div class="price-space"></div>
+                      <div class="price-main font-noto">$11.00</div>
+                 </div>
+                 <div class="product-des">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+                 </div>
+               </div>
+             </div>
+           </div>
+       </div>
+   </div>
+   <!-- drinks -->
+   <div class="menu-drinks">
+    <div class="container">
+      <div class="row">
+          <div class="col-6 col-sm-12 wrap-content-menu">
+             <span class="title-nav color-pri">Our menu</span>
+             <div class="flex2 wrap-title-menu">
+                 <img src="./Images/drinks-logo.svg" alt="" class="img-full img-logo-cus">
+                 <h1 class="title-nav2">Beverages</h1>
+             </div>
+             <div class="food-item">
+               <div class="flex1 product-price">
+                    <div class="price-head color-pri font-noto">Americano</div>
+                    <div class="price-space"></div>
+                    <div class="price-main font-noto">$9.00</div>
+               </div>
+               <div class="product-des">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+               </div>
+             </div>
+             <div class="food-item">
+              <div class="flex1 product-price">
+                   <div class="price-head color-pri font-noto">Cold Coffee With Ice-cream</div>
+                   <div class="price-space"></div>
+                   <div class="price-main font-noto">$13.00</div>
+              </div>
+              <div class="product-des">
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+              </div>
+            </div>
+            <div class="food-item">
+              <div class="flex1 product-price">
+                   <div class="price-head color-pri font-noto">Coffee Latte</div>
+                   <div class="price-space"></div>
+                   <div class="price-main font-noto">$15.00</div>
+              </div>
+              <div class="product-des">
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+              </div>
+            </div>
+            <div class="food-item">
+              <div class="flex1 product-price">
+                   <div class="price-head color-pri font-noto">Fresh Juice</div>
+                   <div class="price-space"></div>
+                   <div class="price-main font-noto">$11.00</div>
+              </div>
+              <div class="product-des">
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quos harum officia eaque nobis ut.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-12 wrap-img-menu">
+              <img src="./Images/beverage-dr1.png" alt="" class="img-menu-lg">
+          </div>
+      </div>
+    </div>
+   </div>
+
+   <!-- delivery -->
+   <div class="delivery">
+      <div class="deli-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col col-6 col-sm-12 content-delivery">
+                    <h1 class="font-noto">VERY FAAAAAST DELIVERY !</h1>
+                    <p>Food Taste Better when you eat it with your Family</p>
+                    <a href="tel+: 0932376202" class="btn-tran">CALL US NOW</a>
+                </div>
+                <div class="col col-6 col-sm-12 img-delivery">
+                    <img src="./Images/delivery.svg" alt="" class="img-full img-menu-lg">
+                </div>
+            </div>
+        </div>
+      </div>
+      <div id="contact" class="contact-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-12 content-contact">
+                    <div class="adress content-contact-item d-block">
+                        <span class="title-nav color-pri">Address</span>
+                        <p>North America</p>
+                        <p>795 Folsom Ave, Suite 600</p>
+                        <p>San Francisco, CA 94107.</p>
+                    </div>
+                    <div class="phone content-contact-item d-block">
+                        <span class="title-nav color-pri">Phone number</span>
+                        <span><a href="+tel:8547 632521">(00) 8547 632521</a></span>
+                    </div>
+                    <div class="mail content-contact-item d-block">
+                        <span class="title-nav color-pri">Email</span>
+                        <span><a href="mail to:syle2k10802@gmail.com">syle2k10802@gmail.com</a></span>
+                    </div>
+                    <div class="time content-contact-item d-block">
+                        <span class="title-nav color-pri">Time</span>
+                        <p>11.00am - 06.00pm</p>
+                        <p>SUNDAY CLOSED</p>
+                    </div>
+                </div>
+                <div class="col-8 col-sm-12" id="map"></div>
+               
+            </div>
+          </div>
+      </div>
+   </div>
+   <footer id="footer" class="font-noto">
+      <div class="container">
+          <div class="row">
+              <div class="wrap-content-footer col-8 col-sm-12 col-md-12">
+                  <div class="title-footer flex1">
+                      <div class="logo-footer">
+                           <img src="./Images/logo-dark.png" alt="" style="max-width :none;">
+                      </div>
+                      <div class="title-footer-des">
+                          <p>We believe in Simple, Creative & Flexible Design Standards with a Retina & Responsive Approach. Browse the amazing Features this template offers.</p>
+                      </div>
+                  </div>
+                  <div class="row footer-content">
+                      <div class="col-6 col-sm-12 counters">
+                           <div class="row counter-mobile">
+                               <div class="col col-6 col-sm-6 count-item">
+                                  <div class="counter">15,0654</div>
+                                  <span>TOTAL DOWNLOADS</span>
+                               </div>
+                               <div class="col col-6 col-sm-6 count-item">
+                                  <div class="counter">18,465</div>
+                                  <span>ORDERS SERVED</span>
+                              </div>
+                           </div>
+                      </div>
+                      <div class="col-6 col-sm-12 col-md-12 footer-content-r">
+                          <p >Subscribe to Our Newsletter to get Important News, Amazing Offers & Inside Scoops:</p>
+                          <div class="wrap-input">
+                              <span class="input-icon">
+                                <i class="fas fa-paper-plane"></i>
+                              </span>
+                              <input type="text" placeholder="Enter your email">
+                              <button>Subscribe</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row footer-col-4">
+                      <div class="col col-4 col-sm-6 footer-col4-item">
+                          <span>SITEMAP</span>
+                          <ul class="d-block">
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">About Us</a></li>
+                              <li><a href="#">Menu</a></li>
+                              <li><a href="#">Store</a></li>
+                          </ul>
+                      </div>
+                      <div class="col col-4 col-sm-6 footer-col4-item">
+                        <span>CATEGORIES</span>
+                        <ul class="d-block">
+                            <li><a href="#">Burgers</a></li>
+                            <li><a href="#">Appetizers</a></li>
+                            <li><a href="#">Wraps</a></li>
+                            <li><a href="#">Beverages</a></li>
+                        </ul>
+                      </div>
+                      <div class="col col-4 col-sm-12 footer-col4-item">
+                          <span>DOWNLOAD APP</span>
+                          <div class="d-block app-img">
+                              <a href="https://www.apple.com/app-store/"><img src="./Images/appstore.png" alt=""></a>
+                              <a href="https://play.google.com/store"><img src="./Images/googleplay.png" alt=""></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-4 col-sm-12 col-md-12 img-footer" style="padding: 16px;">
+                  <h4>INSTAGRAM PHOTOS</h4>
+                  <div class="row img-insta">
+                      <div class="col-3">
+                         <a href="https://www.instagram.com/p/BhBMEM_labc/"> <img src="./Images/i1.jpg" alt=""></a>
+                      </div>
+                      <div class="col-3">
+                          <a href="https://www.instagram.com/p/BhBMEM_labc/"><img src="./Images/i2.jpg" alt=""></a>
+                      </div>
+                      <div class="col-3">
+                          <a href="https://www.instagram.com/p/BhBMEM_labc/"><img src="./Images/i3.jpg" alt=""></a>
+                      </div>
+                      <div class="col-3">
+                          <a href="https://www.instagram.com/p/BhBMEM_labc/"><img src="./Images/i4.jpg" alt=""></a>
+                      </div>
+                      <div class="col-3">
+                          <a href="https://www.instagram.com/p/BhBMEM_labc/"><img src="./Images/i5.jpg" alt=""></a>
+                      </div>
+                      <div class="col-3">
+                          <a href="https://www.instagram.com/p/BhBMEM_labc/"><img src="./Images/i6.jpg" alt=""></a>
+                      </div>
+                      <div class="col-3">
+                          <a href="https://www.instagram.com/p/BhBMEM_labc/"><img src="./Images/i7.jpg" alt=""></a>
+                      </div>
+                      <div class="col-3">
+                          <a href="https://www.instagram.com/p/BhBMEM_labc/"><img src="./Images/i8.jpg" alt=""></a>
+                      </div>
+                      <div class="col-3">
+                          <a href="https://www.instagram.com/p/BhBMEM_labc/"><img src="./Images/i9.jpg" alt=""></a>
+                      </div>
+                      <div class="col-3">
+                          <a href="https://www.instagram.com/p/BhBMEM_labc/"><img src="./Images/i10.jpg" alt=""></a>
+                      </div>
+                      <div class="col-3">
+                          <a href="https://www.instagram.com/p/BhBMEM_labc/"><img src="./Images/i11.jpg" alt=""></a>
+                      </div>
+                      <div class="col-3">
+                          <a href="https://www.instagram.com/p/BhBMEM_labc/"><img src="./Images/i12.jpg" alt=""></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <div class="footer-child flex1">
+        <div class="container">
+            <div class="row wrap-footer-child" style="padding: 0 60px; align-items: center;">
+                <div class="col-6 col-sm-12 copr-r">
+                    Copyrights © 2020 All Rights Reserved by Canvas Inc.
+                <span class="flex2 cop-r-link">
+                    <a href="">Terms of Use</a>
+                    /
+                    <a href="">Privacy policy</a>
+                    
+                </span>
+                </div>
+                <div class="col-6 col-sm-12 wrap-icon-social">
+                    <a href="" class="icon-social" style="background-color: #3b5998;">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="icon-social" style="background-color: #00acee;">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="icon-social" style="background-color: #dd4b39;">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                    <a href="" class="icon-social" style="background-color: #c8232c;">
+                       <i class="fab fa-pinterest"></i>
+                    </a>
+                    <a href="" class="icon-social" style="background-color: #8a3ab9;">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="icon-social" style="background-color: #c4302b;">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+   </footer>
+   <script src="./JavaScript/main.js"></script>
+
+   <!-- AIzaSyDdJajqO16BLMQw4ZJzc1i5e8H03t1dbsU -->
+   <script async defer src="https://maps.googleapis.com/maps/api/js?key=
+   AIzaSyDdJajqO16BLMQw4ZJzc1i5e8H03t1dbsU&callback=initMap"></script>
+</body>
+</html>
